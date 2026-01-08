@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <title>Ողջի գետի ջրի որակի վերլուծություն</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+<header>
+    <h1>Ողջի գետի ջրի որակի վերլուծություն</h1>
+    <p>Նմուշառման կետ՝ 39°9'4.51"N, 46°11'11.79"E</p>
+</header>
+
+<section>
+    <h2>📍 Նմուշառման քարտեզ</h2>
+    <div id="map"></div>
+</section>
+
+<section>
+    <h2>📊 Ջրի որակի փոփոխություն</h2>
+    <canvas id="qualityChart"></canvas>
+</section>
+
+<section>
+    <h2>🧪 Ջրի որակի դաս</h2>
+    <div class="quality-box" id="qualityClass"></div>
+</section>
+
+<section>
+    <h2>🤖 AI վերլուծություն</h2>
+    <div class="ai-box" id="aiAnalysis"></div>
+</section>
+
+<footer>
+    © 2026 — Ողջի գետի ջրի մոնիթորինգ
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
